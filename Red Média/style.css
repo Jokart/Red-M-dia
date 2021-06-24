@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Partie Responsive mobile début*/
+@media screen and (max-width: 360px){
+    header{
+        background-image:none !important;
+        height: 35vh !important;
+    }
+
+    .logo-foot{
+        width: 50% !important;
+        margin-left: 0%;
+    }
+
+    .logo{
+        margin-left: 25%;
+    }
+
+    .right{
+        margin-top: -20vh !important;
+    }
+
+    h3{
+        text-align: center;
+    }
+
+    .service-img{
+        margin-left: 5%;
+    }
+
+    .partners{
+        margin-left: 5%;
+    }
+
+    .foot-icon{
+        margin-top: 20px;
+    }
+
+    .ancre{
+        font-size: 2em !important;
+        line-height: 40px !important;
+        margin-top: 0 !important;
+    }
+
+    .ancre-up{
+        width: 40px !important;
+        height: 40px !important;
+        right: 60px !important;
+    }
+
+    .ancre-down{
+        width: 40px !important;
+        height: 40px !important;
+    }
+}
+/* Partie Responsive mobile fin*/
+
+/*Responsive tablette 800px */
+
+/*Responsive tablette 800px fin */
+header{
+    background-image: url(Bannière-R_M.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 78vh;
+}
+
+.logo-foot{
+    width: 150px;
+    text-align: center;
+}
+
+.logo{
+    width: 150px;
+    text-align: center;
+}
+
+.description{
+    border-right: solid 3px #ccc;
+}
+
+.red{
+    background-color: #e30713;
+    color: white;
+    text-align: center;
+}
+
+.far{
+    font-size: 3em;
+}
+
+.fas{
+    font-size: 3em;
+}
+
+.separator{
+    background: #ccc;
+    width: 90%;
+    height: 5px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.div-team{
+    text-align: center;
+}
+
+.team{
+    border-radius: 50%;
+}
+
+.contact-section{
+    background-color: #e30713;
+    padding: 40px 0;
+}
+
+.contact-section h2{
+    text-align: center;
+    color: white;
+}
+
+.border-h2{
+    width: 100px;
+    height: 10px;
+    background: #ccc;
+    margin: 40px auto;
+}
+
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #ccc;
+    padding: 20px 40px;
+    outline: none;
+    color: #111;
+    transition: 1s;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #222222;
+}
+
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: #703e3e;
+    color: #ccc;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.contact-form-btn:hover{
+     background: #be3f3f;
+}
+
+.space{
+    height: 70px;
+}
+
+footer{
+    background: #e30713;
+    text-align: center;
+}
+
+.foot-icon{
+    font-size: 2em;
+    color: white;
+}
+
+.foot-icon:hover{
+    font-size: 3em;
+    transition: 1s;
+    cursor: pointer;
+}
+
+h6{
+    font-size: 2em;
+    color: white;
+}
+
+.réal{
+    width: 200px;
+    height: 200px;
+}
+
+.service-img{
+    width: 300px;
+    height: 300px;
+}
+
+.partners{
+    width: 300px;
+}
+
+span{
+    color: white;
+}
+
+.band{
+    text-align: center;
+    background: #e30713;
+    color: white;
+}
+
+.right{
+    text-align: end;
+    margin-top: 5vh;
+}
+
+.btn{
+    background: #e30713;
+}
+
+.dropdown :focus{
+    background: #c23616 !important;
+}
+
+.dropdown :hover{
+    background: #c23616 !important;
+}
+
+.dropdown-menu{
+    background: #c23616 !important;
+}
+
+.dropdown-menu li :hover{
+    background: white !important;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.ancre-up{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    background: #e30713;
+    border-radius: 50%;
+    position: fixed;
+    bottom:10px;
+    right: 101px;
+}
+
+.ancre-up :hover{
+    cursor: pointer;
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+.ancre-down{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    background: #e30713;
+    border-radius: 50%;
+    position: fixed;
+    bottom:10px;
+    right: 10px;
+}
+
+.ancre-down :hover{
+    cursor: pointer;
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+.ancre{
+    color: white;
+    font-size: 3em;
+    margin-top: 10px;
+}
